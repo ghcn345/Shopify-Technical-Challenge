@@ -1,5 +1,5 @@
 <p>
-<img src="images/Shopify.jpg" width="900" height="600">
+<img src="images/Shopify.jpg" width="900" height="500">
 </p>
 
 # Fall 2021 Data Science Intern Challenge 
