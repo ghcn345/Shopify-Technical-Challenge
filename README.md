@@ -1,103 +1,31 @@
 <p>
-<img src="images/stock-chart.jpeg" width="900" height="600">
+<img src="images/Shopify.jpg" width="900" height="600">
 </p>
 
-# Stock Market Prediction
+# Fall 2021 Data Science Intern Challenge 
 
 **Author**: Ning Chen
 
-## Table of Contents
-- [Overview](#Overview)
-- [Business Understanding](#Business-Understanding)
-- [Data Collection](#Data-Collection)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Classification](#Classification)
-- [Time Series](#Time-Series)
-- [Sentimental Analysis](#Sentimental-Analysis)
-- [Frontend](#Frontend)
-- [Next Steps](#Next-Steps)
-- [For More Information](#For-More-Information)
-- [Repository Structure](#Repository-Structure)
-
-## Overview
-Accurate prediction of stock market asset is a significant and challenging task due to complicated nature of the financial stock markets. Considering the increasing availability and affordability of powerful computational engines, deep learning methods of prediction have proved its efficiency in finance.
 
 
-## Business Understanding
-
-A time series regression model using NN or other advanced techniques is built to predict the stock market. Stock market prediction aims to determine the future movement of the stock value of a financial exchange. This project is helpful for Stock investors and investment banks to have a better understanding in developing economical Strategy and in making financial decisions.
+Please complete the following questions, and provide your thought process/work. You can attach your work in a text file, link, etc. on the application page. Please ensure answers are easily visible for reviewers!
 
 
+Question 1: Given some sample data, write a program to answer the following: click here to access the required data set
+
+On Shopify, we have exactly 100 sneaker shops, and each of these shops sells only one model of shoe. We want to do some analysis of the average order value (AOV). When we look at orders data over a 30 day window, we naively calculate an AOV of $3145.13. Given that we know these shops are selling sneakers, a relatively affordable item, something seems wrong with our analysis. 
+
+Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+What metric would you report for this dataset?
+What is its value?
 
 
-## Data Collection
-Data was collected from three different web sources by API calls or Web Scraping.
+Question 2: For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
 
-- [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping.
-- [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series by API calls.
-- Twitter for sentimental data by VADER.
+How many orders were shipped by Speedy Express in total?
+What is the last name of the employee with the most orders?
+What product was ordered the most by customers in Germany?
 
-
-## Exploratory Data Analysis
-
-- Quarterly Report data was cleaned and analyzed. A simple Trade Strategy wad made: local minimum of the price to buy, local maximum of the price to sell, and all other time to hold.
-- Time series data was joined with Quarterly Report data. The missing data for weekends and holidays was filled by interpolation method. The missing data of exogenous features was filled by propagating nearest valid observation backward/forward to next valid observation. 
-- Using TF-IDF for feature extraction in Sentiment Analysis.
-
-    
-
-
-![graph](/images/trade.jpeg)
-
-![graph](/images/ohlc.jpeg)
-
-
-
-## Classification
-
-Quarterly Report data was used to train several different classification models. More than 100 features were presented in the dataframe. Therefore, Principle Component Analysis (PCA) was implemented to reduce the dimensionality. 
-
-![graph](/images/pca.jpeg)
-
-![graph](/images/heatmap.jpeg)
-
-![graph](/images/xgb.jpeg)
-
-
-## Time-Series
-Time series data was fitted and trained to two time series models. All models are evaluated by RMSE and MAPE.
-
-SARIMAX Model with exogenous features
-
-![graph](/images/SARIMAX.jpeg)
-
-Facebook Prophet
-
-![graph](/images/fbprophet.jpeg)
-
-LSTM
-
-![graph](/images/lstm.jpeg)
-
-GRU
-
-![graph](/images/gru.jpeg)
-
-## Sentimental Analysis
-
-Use NLP & Deep Learning to predict stock prices.
-
-## Frontend
-
-Streamlit was used to create a frontend for each form of analysis with their respective machine learning models.
-
-<img src="images/stock.gif">
-
-
-## Next Step
-- To access the updated quarterly reports timely and obtain more important features.
-- To tune the hyperparameters (exogenous variables) in Time Series models. Technical indicators such as MACD, Stochastic, RSI, etc can be used.
-- Besides Twitter, gathering more relevant sentimental data from other web sources.
 
 ## For More Information
 
