@@ -26,7 +26,10 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 
 **WAOV (weighted average order value) = 293.72**
 
-<span style="color:red"> Please find detailed code in</span>. [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
+```
+<span style="color:red">Please find detailed code in</span> 
+```
+[Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
 
 
 
