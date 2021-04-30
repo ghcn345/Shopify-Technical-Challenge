@@ -20,17 +20,13 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 
 - b. What metric would you report for this dataset?
 
-**Instead of AOV (average order value), we can use weighted AOV in which total # of items is considered.**
+*Instead of AOV (average order value), we can use weighted AOV in which total # of items is considered.*
 
 - c. What is its value?
 
-**WAOV (weighted average order value) = 293.72**
+*WAOV (weighted average order value) = 293.72*
 
-```diff
-adb
-<span style="color:red">Please find detailed code in</span> 
-```
-[Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
+**lease find detailed code in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).**
 
 
 
