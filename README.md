@@ -4,11 +4,9 @@
 
 # Fall 2021 Data Science Intern Challenge 
 
-**Author**: Ning Chen
-
-
-
-Please complete the following questions, and provide your thought process/work. You can attach your work in a text file, link, etc. on the application page. Please ensure answers are easily visible for reviewers!
+**Applicant**: Ning Chen
+[LinkedIn](https://www.linkedin.com/in/ningchen345/)
+[Blog](https://kinder-chen.medium.com)
 
 
 Question 1: Given some sample data, write a program to answer the following: [click here to access the required data set](https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0).
@@ -29,7 +27,7 @@ Question 2: For this question you’ll need to use SQL. [Follow this link](https
 
 ## For More Information
 
-Please review our full analysis in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
+Please review question analysis in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
 
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
