@@ -25,7 +25,7 @@ For this question you’ll need to use SQL. [Follow this link](https://www.w3sch
 - a. How many orders were shipped by Speedy Express in total?
 
 Queries: 
-```
+```sql
 SELECT SUM(od.Quantity) FROM OrderDetails od 
 JOIN ORDERS o USING(OrderID) 
 WHERE o.ShipperID = 1 
@@ -35,7 +35,7 @@ Result: 3575
 - b. What is the last name of the employee with the most orders?
 
 Queries: 
-```
+```sql
 SELECT e.Lastname, SUM(od.Quantity) as total FROM OrderDetails od 
 JOIN ORDERS o USING(OrderID) 
 JOIN Employees e USING(EmployeeID) 
@@ -48,7 +48,7 @@ Result: Peacock
 - c. What product was ordered the most by customers in Germany?
 
 Queries: 
-```
+```sql
 SELECT c.CategoryName, COUNT(c.CategoryName) as total FROM Categories c 
 JOIN Products p USING(CategoryID) 
 JOIN OrderDetails od USING(ProductID) 
