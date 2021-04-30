@@ -4,10 +4,8 @@
 
 # Fall 2021 Data Science Intern Challenge 
 
-**Applicant**: Ning Chen 
-
+**Applicant**: Ning Chen \
 [LinkedIn](https://www.linkedin.com/in/ningchen345/)
-
 [Blog](https://kinder-chen.medium.com)
 
 
