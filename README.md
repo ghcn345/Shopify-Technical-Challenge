@@ -29,14 +29,12 @@ For this question you’ll need to use SQL. [Follow this link](https://www.w3sch
 
 ## For More Information
 
-Please review question analysis in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
-
+Please review question analysis in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb). \
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
 ## Repository Structure
 
 Description of the structure of the repository and its contents:
-
 ```
 ├── README.md                           <- Solution of Fall 2021 Data Science Intern Challenge
 ├── TechnicalChallenge                  <- Technical Challenge Code in Jupyter notebook
