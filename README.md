@@ -20,43 +20,40 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 
 
 ## Question 2
-For this question you’ll need to use SQL. [Follow this link](https://www.w3schools.com/SQL/TRYSQL.ASP?FILENAME=TRYSQL_SELECT_ALL) to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
+For this question you’ll need to use SQL. [Follow this link](https://www.w3schools.com/SQL/TRYSQL.ASP?FILENAME=TRYSQL_SELECT_ALL) to access the data set required for the challenge. 
 
 - a. How many orders were shipped by Speedy Express in total?
-Queries:
-SELECT SUM(od.Quantity) FROM OrderDetails od
-JOIN ORDERS o USING(OrderID)
-WHERE o.ShipperID = 1
+Queries: \
+SELECT SUM(od.Quantity) FROM OrderDetails od \
+JOIN ORDERS o USING(OrderID) \
+WHERE o.ShipperID = 1 \
 
-Result:
-3575
+Result: 3575
 
 - b. What is the last name of the employee with the most orders?
-Queries:
-SELECT e.Lastname, SUM(od.Quantity) as total FROM OrderDetails od
-JOIN ORDERS o USING(OrderID)
-JOIN Employees e USING(EmployeeID)
-GROUP BY EmployeeID
-ORDER BY total DESC
+Queries: \
+SELECT e.Lastname, SUM(od.Quantity) as total FROM OrderDetails od \
+JOIN ORDERS o USING(OrderID) \
+JOIN Employees e USING(EmployeeID) \
+GROUP BY EmployeeID \
+ORDER BY total DESC \
 LIMIT 1
 
-Result:
-Peacock
+Result: Peacock
 
 - c. What product was ordered the most by customers in Germany?
-Queries:
-SELECT c.CategoryName, COUNT(c.CategoryName) as total FROM Categories c
-JOIN Products p USING(CategoryID)
-JOIN OrderDetails od USING(ProductID)
-JOIN Orders o USING(OrderID)
-JOIN Customers cu USING(CustomerID)
-WHERE cu.Country = 'Germany'
-GROUP BY CategoryID
-ORDER BY total DESC
+Queries: \
+SELECT c.CategoryName, COUNT(c.CategoryName) as total FROM Categories c \
+JOIN Products p USING(CategoryID) \
+JOIN OrderDetails od USING(ProductID) \
+JOIN Orders o USING(OrderID) \
+JOIN Customers cu USING(CustomerID) \
+WHERE cu.Country = 'Germany' \
+GROUP BY CategoryID \
+ORDER BY total DESC \
 LIMIT 1
 
-Result:
-17
+Result: 17
 
 ## For More Information
 
