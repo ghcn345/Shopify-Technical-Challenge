@@ -5,8 +5,7 @@
 # Fall 2021 Data Science Intern Challenge 
 
 **Applicant**: Ning Chen \
-[LinkedIn](https://www.linkedin.com/in/ningchen345/)
-[Blog](https://kinder-chen.medium.com)
+[LinkedIn](https://www.linkedin.com/in/ningchen345/) \\ [Blog](https://kinder-chen.medium.com)
 
 
 Question 1: Given some sample data, write a program to answer the following: [click here to access the required data set](https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0).
