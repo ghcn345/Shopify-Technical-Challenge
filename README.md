@@ -23,26 +23,32 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 For this question you’ll need to use SQL. [Follow this link](https://www.w3schools.com/SQL/TRYSQL.ASP?FILENAME=TRYSQL_SELECT_ALL) to access the data set required for the challenge. 
 
 - a. How many orders were shipped by Speedy Express in total?
+
 Queries: \
+```
 SELECT SUM(od.Quantity) FROM OrderDetails od \
 JOIN ORDERS o USING(OrderID) \
-WHERE o.ShipperID = 1 \
-
+WHERE o.ShipperID = 1 
+```
 Result: 3575
 
 - b. What is the last name of the employee with the most orders?
+
 Queries: \
+```
 SELECT e.Lastname, SUM(od.Quantity) as total FROM OrderDetails od \
 JOIN ORDERS o USING(OrderID) \
 JOIN Employees e USING(EmployeeID) \
 GROUP BY EmployeeID \
 ORDER BY total DESC \
 LIMIT 1
-
+```
 Result: Peacock
 
 - c. What product was ordered the most by customers in Germany?
+
 Queries: \
+```
 SELECT c.CategoryName, COUNT(c.CategoryName) as total FROM Categories c \
 JOIN Products p USING(CategoryID) \
 JOIN OrderDetails od USING(ProductID) \
@@ -52,7 +58,7 @@ WHERE cu.Country = 'Germany' \
 GROUP BY CategoryID \
 ORDER BY total DESC \
 LIMIT 1
-
+```
 Result: 17
 
 ## For More Information
