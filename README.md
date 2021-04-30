@@ -69,7 +69,7 @@ GROUP BY CategoryID
 ORDER BY total DESC 
 LIMIT 1
 ```
-Result: 17
+Result: Dairy Products
 
 ## For More Information
 
