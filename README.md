@@ -29,7 +29,7 @@ Question 2: For this question you’ll need to use SQL. [Follow this link](https
 
 ## For More Information
 
-Please review our full analysis in [Jupyter Notebook]().
+Please review our full analysis in [Jupyter Notebook](https://github.com/ghcn345/Shopify-Technical-Challenge/blob/master/TechnicalChallenge.ipynb).
 
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
@@ -38,8 +38,8 @@ For any additional questions, please contact **Ning Chen—chen.ning345@gmail.co
 Description of the structure of the repository and its contents:
 
 ```
-├── README.md                           <- Fall 2021 Data Science Intern Challenge
-├── TechnicalChallen                    <- Technical Challenge Code in Jupyter notebook
+├── README.md                           <- Solution of Fall 2021 Data Science Intern Challenge
+├── TechnicalChallenge                  <- Technical Challenge Code in Jupyter notebook
 ├── data                                <- 2019 Winter Data Science Intern Challenge Data Set
 └── images                              <- logo
 ```
